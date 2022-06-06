@@ -1,0 +1,22 @@
+/* getting rid of ugly dots */
+ul {
+    list-style: none;
+}
+
+/* Want my nav bar to follow when I scroll */
+#sticky-nav {
+    position: sticky;
+    top: 0.5em;
+}
+
+/* Want my nav bars to be nav bars, not nav lists lol */
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* differentiate the header from the nav */
+header {
+    background-color: aqua;
+}
